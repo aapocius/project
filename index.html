@@ -2,12 +2,90 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <script src="https://kit.fontawesome.com/e57c2904bb.js" crossorigin="anonymous"></script>
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- Swiper js bundle -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
     <link rel="stylesheet" href="app/css/style.css">
-    <title>Gulp template</title>
+    <script src="script.js" defer></script>
+    <title>Project</title>
 <body>
-  <h1>Project</h1>
-  <script src="script.js"></script>
+    <section>
+      <h1>PRICING OPTIONS</h1>
+      <div class="greenstrip"></div>
+      <h6 class="firstp">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+      <!-- Swiper html -->
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="plan plan1">
+              <div class="plan1 black">
+                <h2>Basic</h2>
+                <h3 class="price"><span>$</span>0</h3>
+                <p class="free">Free for Life</p>
+              </div>
+              <div class="plan1 green"></div>
+              <div class="plan1 text">
+                <p>1 GB OF SPACE</p>
+                <p>10 GB OF BANDWIDTH</p>
+                <p>3 WEBSITES</p>
+                <p>BASIC CUSTOMIZATION</p>
+                <p>WORDPRESS INTEGRATION</p>
+                <p>EMAIL SUPPORT</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="plan plan2">
+              <div class="plan1 black">
+                <h2>Professional</h2>
+                <h3 class="price"><span>$</span>19</h3>
+                <p class="free">Monthly Payment</p>
+              </div>
+              <div class="plan1 green2">OUR MOST POPULAR</div>
+              <div class="plan1 text">
+                <p>5 GB OF SPACE</p>
+                <p>50 GB OF BANDWIDTH</p>
+                <p>12 WEBSITES</p>
+                <p>ADVANCED CUSTOMIZATION</p>
+                <p>WORDPRESS INTEGRATION</p>
+                <p>EMAIL SUPPORT</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="plan plan3">
+              <div class="plan1 black">
+                <h2>Enterprise</h2>
+                <h3 class="price"><span>$</span>70</h3>
+                <p class="free">Monthly Payment</p>
+              </div>
+              <div class="plan1 green"></div>
+              <div class="plan1 text">
+                <p>UNLIMITED PSPACE</p>
+                <p>UNLIMITED BANDWIDTH</p>
+                <p>100 WEBSITES</p>
+                <p>ADVANCED CUSTOMIZATION</p>
+                <p>WORDPRESS INTEGRATION</p>
+                <p>24/7 CUSTOMER SUPPORT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+    </section>
+  
 </body>
 </html>
