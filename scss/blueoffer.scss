@@ -1,0 +1,149 @@
+section {
+  background-color: #6696e2;
+}
+h6 {
+  color: whitesmoke;
+  text-align: center;
+  font: normal normal normal 14px/20px Montserrat;
+}
+section p {
+  font-family: Montserrat, Regular;
+  text-align: center;
+}
+section div.greenstrip {
+  margin: 20px auto;
+  top: 2761px;
+  left: 668px;
+  width: 64px;
+  height: 2px;
+  background: transparent url("../img/strip.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+span {
+  font-size: 20px;
+}
+.black {
+  background-color: #262626;
+  color: whitesmoke;
+  border-radius: 4px 4px 0 0;
+}
+.free {
+  color: gray;
+}
+
+.green {
+  height: 6px;
+}
+.green2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  color: #ffffff;
+}
+.text {
+  background-color: whitesmoke;
+  color: #86878b;
+  border-radius: 0 0 4px 4px;
+}
+h1 {
+  text-align: center;
+  font: normal normal 600 36px/43px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-bottom: 0;
+}
+
+.plan h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.plan p {
+  text-align: center;
+  font: normal normal normal 14px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #86878b;
+  opacity: 1;
+}
+.black h3 {
+  color: #ffffff;
+
+  font-weight: 400;
+}
+
+.price {
+  font-size: 50px;
+
+  margin: 10px 0;
+}
+
+/*1st Flex Container*/
+.pricing-grid {
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/*2nd Flex Container; 1st Flex Item*/
+.plan {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: $greencolor;
+  margin-bottom: 50px;
+  border-radius: 4px;
+}
+.plan1 {
+  width: 300px;
+}
+
+/* Swiper css */
+.swiper {
+  max-width: 600px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: $greencolor;
+  transition: transform 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.2);
+  text-shadow: 0 0 5px $greencolor;
+}
+
+.swiper-pagination-bullet {
+  border: 3px solid $greencolor;
+}
+
+.swiper-pagination-bullet-active {
+  background: $greencolor;
+  box-shadow: 0 0 5px $greencolor;
+}
+
+@media (min-width: 1000px) {
+  .swiper {
+    max-width: 1200px;
+  }
+
+  .plan {
+    width: 300px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
