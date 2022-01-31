@@ -151,13 +151,13 @@
       
         <form class="signUp" action="" method="get">
           <div class="formGroup">
-            <input type="text" id="fname" placeholder="First name" autocomplete="off">
+            <input type="text" id="fname" placeholder="First name" autocomplete="off" oninvalid="InvalidMsg(this);" name="name" oninput="InvalidMsg(this);"  type="name" required="required">
           </div>
           <div class="formGroup">
-            <input type="lname" placeholder="Last name" name="lname" required autocomplete="off">
+            <input type="lname" placeholder="Last name" name="lname" required autocomplete="off"required>
           </div>
           <div class="formGroup">
-            <input type="tel" id="password" placeholder="Phone number" required autocomplete="off">
+            <input type="tel" id="password" placeholder="Phone number" required autocomplete="off"required>
           </div>
           
           <div class="checkBox">
@@ -172,6 +172,12 @@
     
         </form>
 </section>
-      
+      <footer>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-rss"></a>
+      </footer>
      </body>
 </html>
