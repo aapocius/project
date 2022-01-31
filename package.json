@@ -1,8 +1,4 @@
- "browserslist": [
-    "defaults",
-    "not IE 11",
-    "maintained node versions"
-  ]
+
 {
   "name": "tarpinis-atsiskaitymas",
   "version": "1.0.0",
