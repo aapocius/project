@@ -1,23 +1,23 @@
 .cheshire {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+
   justify-content: center;
   background-color: #1c1c1c;
   padding-bottom: 50px;
   gap: 150px;
-  margin-top: 20px;
-  margin: 0 auto;
 
   h5 {
     color: #ffffff;
     font: normal normal 600 30px/43px Montserrat;
+    margin: 30px auto;
   }
   p {
     color: #ffffff;
     width: 451px;
     text-align: left;
     font: normal normal normal 14px/20px Montserrat;
+    margin-top: 30px;
   }
 }
 .image {
@@ -37,8 +37,6 @@
   background: transparent url("../img/orangestrip.svg") 0% 0% no-repeat
     padding-box;
   opacity: 1;
-}
-.cheshiretext {
 }
 
 .cheshiresvgp {
@@ -125,8 +123,12 @@
 //   }
 // }
 
-@media (max-width: 1000px) {
+@media (max-width: 860px) {
   .cheshire {
+    flex-wrap: wrap;
     gap: 0;
+  }
+  .orangestrip {
+    margin: 0 auto;
   }
 }
