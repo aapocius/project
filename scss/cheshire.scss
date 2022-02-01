@@ -1,0 +1,88 @@
+.cheshire {
+  background-color: #1c1c1c;
+  img {
+  }
+  h5 {
+    color: #ffffff;
+    font: normal normal 600 30px/43px Montserrat;
+  }
+  p {
+    color: #ffffff;
+  }
+}
+.orangestrip {
+  margin: 90px auto;
+  top: 1608px;
+  left: 767px;
+  width: 200px;
+  height: 2px;
+
+  background: transparent url("../img/orangestrip.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+//.container .content {
+//   button {
+//     padding: 15px 30px;
+//     font-size: 1.1rem;
+//     font-weight: 600;
+//     background: $orange-color;
+//     border: 2px solid $orange-color;
+//     border-radius: 4px;
+//     color: orange;
+//     transition: 0.3s;
+
+//     &:hover {
+//       background: white;
+//       color: $orange-color;
+//     }
+//   }
+// }
+
+// .content,
+// .img {
+//   width: 50%;
+// }
+
+// #hero-area {
+//   .img {
+//     max-width: 600px;
+//     height: 400px;
+//     object-fit: contain;
+//     animation: bouncing 1s infinite alternate linear;
+//   }
+// }
+
+// @keyframes bouncing {
+//   from {
+//     transform: translateY(0);
+//   }
+//   to {
+//     transform: translateY(-10px);
+//   }
+// }
+
+// #hero-area .container {
+//   flex-direction: column;
+//   text-align: center;
+//   padding: 100px 30px;
+//   .content,
+//   .img {
+//     width: 100%;
+//   }
+
+//   .img {
+//     margin-top: 50px;
+//   }
+
+//   button {
+//     width: 60%;
+//   }
+// }
+
+@media (max-width: 380px) {
+  header,
+  nav {
+    margin: 0;
+  }
+}
