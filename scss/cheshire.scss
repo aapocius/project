@@ -100,7 +100,8 @@ section.cheshire {
 
 @keyframes bouncing {
   from {
-    transform: translateY(0);
+    transform: translateX(10);
+    opacity: 0.3;
   }
   to {
     transform: translateY(-10px);
