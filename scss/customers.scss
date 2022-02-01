@@ -10,12 +10,16 @@
 
 .chatcontainer {
   display: flex;
+  gap: 20px;
   justify-content: center;
-  gap: 80px;
-  margin-bottom: 200px;
+  max-width: 1200px;
+  margin-bottom: 150px;
+  margin: 0 auto;
 }
 .chatinside {
   display: flex;
+
+  margin: 0 auto;
   flex-direction: column-reverse;
 }
 .foto {
