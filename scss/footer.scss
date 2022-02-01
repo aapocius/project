@@ -23,16 +23,26 @@ footer {
   color: #e27866;
   text-align: left;
   text-decoration: none;
-  margin-leftt: 60px;
+
   border-radius: 50%;
 }
 .fa:hover {
-  opacity: 0.3;
+  opacity: 1;
 }
-// .fa-facebook {
-//   color: white;
-// }
+.fa-facebook:hover {
+  color: #3b5998;
+}
 
-// .fa-twitter {
-//   color: white;
-// }
+.fa-twitter:hover {
+  color: #55acee;
+}
+
+.fa-instagram:hover {
+  color: #8a3ab9;
+}
+.fa-pinterest:hover {
+  color: #cb2027;
+}
+.fa-rss:hover {
+  color: #ff6600;
+}
