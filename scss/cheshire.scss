@@ -1,5 +1,6 @@
 section.cheshire {
   display: flex;
+  align-items: center;
   justify-content: right;
   background-color: #1c1c1c;
 
@@ -23,6 +24,7 @@ section.cheshire {
   }
 }
 .nofoto {
+  float: left;
 }
 .orangestrip {
   width: 200px;
