@@ -1,4 +1,6 @@
 section.cheshire {
+  display: flex;
+  justify-content: right;
   background-color: #1c1c1c;
 
   // img {
@@ -13,8 +15,14 @@ section.cheshire {
     text-align: left;
   }
 }
+.image {
+  margin: 0 auto;
+  img {
+    float: left;
+    clear: left;
+  }
+}
 .nofoto {
-  display: flex;
 }
 .orangestrip {
   width: 200px;
@@ -31,6 +39,7 @@ section.cheshire {
 }
 
 .cheshiresvgp {
+  float: right;
   display: flex;
   flex-direction: column;
   justify-content: right;
