@@ -4,7 +4,7 @@ section.cheshire {
   justify-content: right;
   background-color: #1c1c1c;
   padding-bottom: 50px;
-  max-width: 1200px;
+
   margin: 0 auto;
 
   // img {
@@ -17,11 +17,14 @@ section.cheshire {
     color: #ffffff;
     width: 451px;
     text-align: left;
+    font: normal normal normal 14px/20px Montserrat;
   }
 }
 .image {
   margin: 0 auto;
+
   img {
+    margin-left: 300px;
     float: left;
     clear: left;
     animation: bouncing 1s infinite alternate linear;
