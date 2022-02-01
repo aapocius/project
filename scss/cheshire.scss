@@ -1,14 +1,14 @@
-section.cheshire {
+.cheshire {
   display: flex;
   align-items: center;
-  justify-content: right;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #1c1c1c;
   padding-bottom: 50px;
-
+  gap: 150px;
+  margin-top: 20px;
   margin: 0 auto;
 
-  // img {
-  // }
   h5 {
     color: #ffffff;
     font: normal normal 600 30px/43px Montserrat;
@@ -21,17 +21,14 @@ section.cheshire {
   }
 }
 .image {
-  margin: 0 auto;
-
   img {
-    margin-left: 300px;
-    float: left;
-    clear: left;
+    margin: 0 auto;
+    margin-top: 50px;
     animation: bouncing 1s infinite alternate linear;
   }
 }
 .nofoto {
-  float: left;
+  margin: 0 auto;
 }
 .orangestrip {
   width: 200px;
@@ -42,9 +39,6 @@ section.cheshire {
   opacity: 1;
 }
 .cheshiretext {
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
 }
 
 .cheshiresvgp {
@@ -131,9 +125,8 @@ section.cheshire {
 //   }
 // }
 
-// @media (max-width: 380px) {
-//   header,
-//   nav {
-//     margin: 0;
-//   }
-// }
+@media (max-width: 1000px) {
+  .cheshire {
+    gap: 0;
+  }
+}
