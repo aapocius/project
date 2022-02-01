@@ -1,0 +1,34 @@
+.awesome {
+  h1 {
+    color: #212121;
+  }
+  h6 {
+    color: #86878b;
+  }
+}
+.svgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+  img {
+    padding: 20px;
+
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e27866;
+    border-radius: 50%;
+  }
+}
+.minicontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  p {
+    color: #86878b;
+    width: 300px;
+  }
+}

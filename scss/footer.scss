@@ -1,25 +1,29 @@
 footer {
   background: #1c1c1c;
+
   .footerflex {
     display: flex;
-
+    margin-right: 10px;
     height: 124px;
-    justify-content: space-evenly;
-
+    justify-content: center;
+    padding-left: 50px;
     align-items: center;
     p {
       color: #ffffff;
       opacity: 0.5;
+      margin-right: 60px;
     }
   }
 }
 .fa {
   font-size: 30px;
-  margin-right: 20px;
+  width: 20px;
+  margin: 0 auto;
+  padding-right: 60px;
   color: #e27866;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
-
+  margin-leftt: 60px;
   border-radius: 50%;
 }
 .fa:hover {
