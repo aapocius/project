@@ -1,9 +1,9 @@
-.cheshire {
+section.cheshire {
   background-color: #1c1c1c;
+
   // img {
   // }
   h5 {
-    margin: 0;
     color: #ffffff;
     font: normal normal 600 30px/43px Montserrat;
   }
@@ -12,6 +12,9 @@
     width: 451px;
     text-align: left;
   }
+}
+.nofoto {
+  display: flex;
 }
 .orangestrip {
   width: 200px;
