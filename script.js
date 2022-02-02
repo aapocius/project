@@ -47,7 +47,7 @@ var sideMenu = document.getElementById("side-menu");
 burger.addEventListener("click", function(){
     sideMenu.classList.toggle("width");
     this.classList.toggle("rotateZ");
-    console.log(this);
+    
 });
 
 window.addEventListener("resize", function(){
