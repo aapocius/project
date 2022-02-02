@@ -1,36 +1,51 @@
 .exploresection {
-  //   background: url("../img/christoffer-engstrom-503481-unsplash.png");
+  background: url("../img/christoffer-engstrom-503481-unsplash.png");
   display: flex;
+  //   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 20px;
 
-  //   background-size: cover;
+  background-size: cover;
+  background-position: center;
 
   p {
+    text-align: left;
     width: 517px;
-    height: 138px;
+
+    color: #ffffff;
   }
 
   h1 {
-    color: black;
+    text-align: left;
+    color: #ffffff;
     width: 509px;
-    height: 124px;
   }
 }
 .iconstext {
+  //   background-color: rgb(190, 159, 159);
   display: flex;
-  flex-direction: column;
+  align-items: center;
+}
+.onlytext {
+  text-align: left;
+  margin: 20px;
+  margin-bottom: 50px;
 }
 .cube {
   display: flex;
-  margin: 10px;
+  margin: 20px;
   align-items: center;
   justify-content: center;
   width: 100px;
   height: 100px;
   box-shadow: 0px 3px 6px #00000029;
-  background-color: #e27866;
+  background-color: #a37169;
+  &:hover {
+    background-color: #e27866;
+  }
 }
+
 .cubeinside {
   transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
 
@@ -40,18 +55,33 @@
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 0.5;
+    &:hover {
+      font-weight: bolder;
+      color: white;
+    }
   }
 }
 .cubefoto {
+  margin: 0 auto;
 }
-.cubefotoinside {
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  //   background: lightblue;
+  margin-left: 30px;
 }
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
 .one {
   text-align: center;
-
   width: 168px;
   height: 168px;
-  background: #e27866;
+
   background-image: url("../img/photo-1493409137604-0901c55e4456.png");
   background-size: cover;
   opacity: 0.8;
@@ -59,14 +89,14 @@
 .two {
   width: 168px;
   height: 168px;
-  background: #e27866;
   background-image: url("../img/photo-1543364195-bfe6e4932397.png");
   background-size: cover;
 }
 .three {
+  grid-column-start: 1;
+  grid-column-end: 3;
   width: 362px;
   height: 177px;
-  background: #e27866;
   background-image: url("../img/photo-1448387473223-5c37445527e7.png");
   background-size: cover;
 }
