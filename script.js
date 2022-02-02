@@ -1,3 +1,4 @@
+'use strict';
 const swiper = new Swiper('.swiper', {
   
   direction: 'horizontal',
@@ -37,3 +38,21 @@ function InvalidMsg(textbox) {
     }
     return true;
 }
+
+
+
+var burger = document.getElementById("burger");
+var sideMenu = document.getElementById("side-menu");
+
+burger.addEventListener("click", function(){
+    sideMenu.classList.toggle("width");
+    this.classList.toggle("rotateZ");
+    console.log(this);
+});
+
+window.addEventListener("resize", function(){
+    if(window.innerWidth > 760){
+        sideMenu.classList.remove("width");
+        burger.classList.remove("rotateZ");
+    }
+})
