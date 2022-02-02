@@ -1,6 +1,7 @@
 .exploresection {
   display: flex;
   flex-direction: column;
+
   p {
     width: 517px;
     height: 138px;
@@ -27,11 +28,39 @@
 
   a {
     text-decoration: none;
-    font: normal normal 600 14px/20px Montserrat;
+    font-size: normal normal 600 14px/20px Montserrat;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 0.5;
   }
 }
 .cubefoto {
+}
+.cubefotoinside {
+}
+.one {
+  text-align: center;
+
+  width: 168px;
+  height: 168px;
+  background: #e27866;
+  background-image: url("../img/photo-1493409137604-0901c55e4456.png");
+  background-size: cover;
+  opacity: 0.8;
+}
+.two {
+  width: 168px;
+  height: 168px;
+  background: #e27866;
+  background-image: url("../img/photo-1543364195-bfe6e4932397.png");
+  background-size: cover;
+  opacity: 0.8;
+}
+.three {
+  width: 362px;
+  height: 177px;
+  background: #e27866;
+  background-image: url("../img/photo-1448387473223-5c37445527e7.png");
+  background-size: cover;
+  opacity: 0.8;
 }
