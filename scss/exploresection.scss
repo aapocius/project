@@ -1,0 +1,20 @@
+.cube {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 3px 6px #00000029;
+  background-color: #e27866;
+}
+.cubeinside {
+  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+
+  a {
+    text-decoration: none;
+    font: normal normal 600 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}

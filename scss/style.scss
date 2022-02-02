@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat:wght@100;400;600&display=swap");
 @import "variables";
+html {
+  box-sizing: border-box;
+  font-family: Montserrat, Regular;
+}
+@import "exploresection";
 @import "cheshire";
 @import "awesome";
 @import "blueoffer";
 @import "customers";
 @import "form";
 @import "footer";
-
-html {
-  box-sizing: border-box;
-  font-family: Montserrat, Regular;
-}
