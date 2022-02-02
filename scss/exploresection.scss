@@ -109,3 +109,8 @@
   background-image: url("../img/photo-1448387473223-5c37445527e7.png");
   background-size: cover;
 }
+@media (max-width: 1000px) {
+  .exploresection {
+    flex-wrap: wrap;
+  }
+}
