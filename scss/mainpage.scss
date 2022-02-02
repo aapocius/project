@@ -1,18 +1,24 @@
 .mainpage {
-  margin: 0;
+  margin: 0 auto;
   // background: linear-gradient(to top, rgb(87, 87, 87), #000000cc),
   // //   url("../img/photo-1480714378408-67cf0d13bc1b.png") no-repeat top center;
-  background: grey;
-  // background-image: url("../img/photo-1480714378408-67cf0d13bc1b.png");
-  // box-shadow: inset 0 0 99999px rgba(7, 7, 7, 0.5);
-  // background-size: cover;
-  // background-position: center;
+  // background: grey;
+  background-image: url("../img/photo-1480714378408-67cf0d13bc1b.png");
+  box-shadow: inset 0 0 99999px rgba(7, 7, 7, 0.5);
+  background-size: cover;
+  background-position: center;
 }
 .stuffcontainer {
   display: flex;
   justify-content: center;
+
   flex-direction: row;
+  img {
+    width: 247px;
+    height: 108px;
+  }
   img.divider {
+    margin-top: 20px;
     width: 84px;
     height: 22px;
   }
@@ -22,11 +28,12 @@
   padding-left: 200px;
 }
 .leftside {
-  background-color: indianred;
+  // background-color: indianred;
   display: flex;
   flex-direction: column;
   justify-content: right;
   margin: 20px;
+
   h1 {
     width: 426px;
     text-align: left;
@@ -38,16 +45,33 @@
     color: #ffffff;
     opacity: 0.8;
     text-align: left;
+    margin-bottom: 15px;
   }
 }
 button.download {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
   border: 2px solid #ffffff;
   width: 135px;
   height: 42px;
+  margin-top: 10px;
+  transition: 0.5s;
+  &:hover {
+    opacity: 0.4;
+  }
 }
 
 .firstform {
-  background: cadetblue;
+  // background: cadetblue;
+  width: 360px;
+  height: 425px;
+
+  button {
+  }
 }
 
 #side-menu {
@@ -126,4 +150,7 @@ button.download {
   #burger {
     display: block;
   }
+}
+.stuffcontainer {
+  flex-wrap: wrap;
 }
