@@ -7,6 +7,10 @@ html {
 input:focus {
   outline: none;
 }
+body {
+  margin: 0px auto;
+  max-width: 1400px;
+}
 @import "mainpage";
 @import "socialmedia";
 @import "exploresection";
