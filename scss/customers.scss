@@ -114,17 +114,18 @@
   background: none;
 }
 #swiperbuttons {
-  color: $bluecolor;
+  color: $orangecolor;
   &:hover {
-    text-shadow: 0 0 5px $bluecolor;
+    text-shadow: 0 0 5px $orangecolor;
   }
 }
 #swiperpagination {
   .swiper-pagination-bullet {
-    border: 3px solid $bluecolor;
+    border: 3px solid $orangecolor;
+    background: none;
   }
   .swiper-pagination-bullet-active {
-    background: $bluecolor;
-    box-shadow: 0 0 5px $bluecolor;
+    background: $orangecolor;
+    box-shadow: 0 0 5px $orangecolor;
   }
 }
