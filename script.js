@@ -56,3 +56,7 @@ window.addEventListener("resize", function(){
         burger.classList.remove("rotateZ");
     }
 })
+
+
+// svaiperiukas
+

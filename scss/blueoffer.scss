@@ -96,6 +96,7 @@ h1 {
 /*2nd Flex Container; 1st Flex Item*/
 .plan {
   display: inline-flex;
+
   flex-direction: column;
   background-color: $greencolor;
   margin-bottom: 50px;

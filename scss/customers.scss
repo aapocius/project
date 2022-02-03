@@ -1,5 +1,4 @@
 .customers {
-  background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
 
   h1 {
@@ -83,4 +82,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+// svaiperiukas2
+#Customerscontainer {
+  background: #ffff;
+  h1 {
+    color: #1c1c1c;
+  }
+}
+#customerschat {
+  background: #ffffff;
+  p {
+    color: #ffffff;
+  }
+}
+#customername {
+  p {
+    color: black;
+  }
+  span {
+    p {
+      color: #86878b;
+    }
+  }
+}
+#speakid {
+  height: auto;
 }
