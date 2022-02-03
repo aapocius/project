@@ -113,3 +113,18 @@
 #chatborder {
   background: none;
 }
+#swiperbuttons {
+  color: $bluecolor;
+  &:hover {
+    text-shadow: 0 0 5px $bluecolor;
+  }
+}
+#swiperpagination {
+  .swiper-pagination-bullet {
+    border: 3px solid $bluecolor;
+  }
+  .swiper-pagination-bullet-active {
+    background: $bluecolor;
+    box-shadow: 0 0 5px $bluecolor;
+  }
+}
