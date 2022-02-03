@@ -26,10 +26,11 @@ form {
   border-style: none;
   color: white;
   opacity: 100%;
+  &:hover {
+    background-color: rgba(10, 136, 43, 0.5);
+  }
 }
-.btn2:hover {
-  background-color: rgba(10, 136, 43, 0.5);
-}
+
 .orange {
   background: #e27866;
 
@@ -45,7 +46,6 @@ form {
 .checkBox {
   display: flex;
   justify-content: left;
-
   flex-direction: row-reverse;
   font: normal normal 600 9px/27px Montserrat;
   letter-spacing: 0px;
