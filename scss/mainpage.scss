@@ -1,14 +1,15 @@
 .mainpage {
   margin: 0 auto;
 
-  // background: linear-gradient(to top, rgb(87, 87, 87), #000000cc),
-  // //   url("../img/photo-1480714378408-67cf0d13bc1b.png") no-repeat top center;
-  // background: grey;
+  background: linear-gradient(
+      270deg,
+      rgba(28, 28, 28, 0.63),
+      rgba(28, 28, 28, 0.63)
+    ),
+    url("../img/photo-1480714378408-67cf0d13bc1b.png");
+
   padding-bottom: 100px;
 
-  background: url("../img/photo-1480714378408-67cf0d13bc1b.png") 0% 0% no-repeat
-    padding-box;
-  background: opacity($color: #1c1c1c);
   background-size: cover;
   background-position: center;
 }
