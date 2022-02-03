@@ -4,6 +4,9 @@ html {
   box-sizing: border-box;
   font-family: Montserrat, Regular;
 }
+input:focus {
+  outline: none;
+}
 @import "mainpage";
 @import "exploresection";
 @import "cheshire";

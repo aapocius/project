@@ -1,11 +1,14 @@
 .mainpage {
   margin: 0 auto;
+
   // background: linear-gradient(to top, rgb(87, 87, 87), #000000cc),
   // //   url("../img/photo-1480714378408-67cf0d13bc1b.png") no-repeat top center;
   // background: grey;
   padding-bottom: 100px;
-  background-image: url("../img/photo-1480714378408-67cf0d13bc1b.png");
-  box-shadow: inset 0 0 99999px rgba(7, 7, 7, 0.5);
+
+  background: url("../img/photo-1480714378408-67cf0d13bc1b.png") 0% 0% no-repeat
+    padding-box;
+  background: opacity($color: #1c1c1c);
   background-size: cover;
   background-position: center;
 }
@@ -69,7 +72,6 @@ button.download {
 .firstform {
   background: cadetblue;
   width: 360px;
-  margin: 10px auto;
 
   button {
     width: 360px;
