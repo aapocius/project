@@ -3,6 +3,7 @@
   // background: linear-gradient(to top, rgb(87, 87, 87), #000000cc),
   // //   url("../img/photo-1480714378408-67cf0d13bc1b.png") no-repeat top center;
   // background: grey;
+  padding-bottom: 100px;
   background-image: url("../img/photo-1480714378408-67cf0d13bc1b.png");
   box-shadow: inset 0 0 99999px rgba(7, 7, 7, 0.5);
   background-size: cover;
@@ -11,7 +12,7 @@
 .stuffcontainer {
   display: flex;
   justify-content: center;
-
+  align-items: center;
   flex-direction: row;
   img {
     width: 247px;
@@ -66,12 +67,58 @@ button.download {
 }
 
 .firstform {
-  // background: cadetblue;
+  background: cadetblue;
   width: 360px;
-  height: 425px;
+  margin: 10px auto;
 
-  // button {
-  // }
+  button {
+    width: 360px;
+    height: 57px;
+    border-radius: 0;
+    font-size: 16px;
+    border-radius: 0 0 5px 5px;
+  }
+}
+.firstsingup {
+  text-align: center;
+
+  margin: auto;
+  border-radius: 5px;
+  #fname {
+    margin-top: 0;
+  }
+  span {
+    color: #e27866;
+  }
+  p {
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    text-align: left;
+
+    font: normal normal 600 16px/24px Montserrat;
+  }
+  .checkBox {
+    text-align: left;
+    margin-left: 55px;
+    display: block;
+
+    #arbata {
+      margin-left: 20px;
+    }
+  }
+  .tryfree {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 5px 5px 0 0;
+    width: 360px;
+    height: 57px;
+    p {
+      font-size: 20px;
+    }
+  }
 }
 
 #side-menu {

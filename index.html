@@ -48,9 +48,14 @@ astonished is.</p>
 <button class="download">DOWNLOAD</button>
 </div>
 <div class="container firstform">
+ 
   <div class="form2">
 
-    <form class="signUp" action="" method="get">
+    
+
+    <form class="signUp firstsingup" action="" method="get">
+      <div class="tryfree"><p> Try Your <span>FREE</span> Trial Today</p></div>
+      <p>Your details</p>
       <div class="formGroup">
         <input type="text" id="fname" placeholder="First name" autocomplete="off" oninvalid="InvalidMsg(this);"
           name="name" oninput="InvalidMsg(this);" type="name" required="required">
@@ -60,16 +65,20 @@ astonished is.</p>
       </div>
       <div class="formGroup">
         <input type="tel" id="password" placeholder="Phone number" required autocomplete="off" required>
+      <p>Type of subscription</p>
       </div>
-
+     
       <div class="checkBox">
-        <label for="kava">COMPANY</label>
+        
+        
         <input id="kava" type="radio" name="gerimas" value="kava" required>
-        <label for="arbata">PERSONAL</label>
+        <label for="kava">MONTHLY</label>
+        
         <input id="arbata" type="radio" name="gerimas" value="arbata" required>
+        <label for="arbata">YEARLY</label>
       </div>
       <div class="sendbutton">
-        <button type="button" class="btn2">SEND</button>
+        <button type="button" class="btn2">GET STARTED</button>
       </div>
     </form>
   </div>
