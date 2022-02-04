@@ -25,9 +25,12 @@ form {
   background-color: #41d395;
   border-style: none;
   color: white;
-  opacity: 100%;
+  opacity: 1;
+  transition: 0.8s;
+  cursor: pointer;
+
   &:hover {
-    background-color: rgba(10, 136, 43, 0.5);
+    opacity: 0.8;
   }
 }
 
