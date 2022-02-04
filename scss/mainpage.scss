@@ -205,13 +205,18 @@ button.download {
 }
 
 @media (max-width: 1000px) {
-  #top-menu a {
-    display: none;
+  #top-menu {
+    a {
+      display: none;
+    }
   }
-
+  #topcheshire {
+    margin-right: 30%;
+  }
   #burger {
     display: block;
     position: fixed;
+    left: 80%;
   }
 
   .stuffcontainer {
