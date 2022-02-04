@@ -135,7 +135,7 @@ button.download {
   transform: translateX(-200px);
   transition: 0.3s;
   z-index: 0;
-  background: black;
+
   height: 400px;
   opacity: 0.5;
 }
@@ -217,6 +217,9 @@ button.download {
     display: block;
     position: fixed;
     left: 80%;
+  }
+  #side-menu {
+    background: black;
   }
 
   .stuffcontainer {
