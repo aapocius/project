@@ -48,9 +48,11 @@
   height: 100px;
   box-shadow: 0px 3px 6px #00000029;
   background-color: #a37169;
-  transition: 1s;
+  transition: 0.8s;
   &:hover {
     background-color: #e27866;
+    box-shadow: 0 5px 30px black;
+    transition: 1s;
   }
 }
 
@@ -63,6 +65,14 @@
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 0.5;
+  }
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
   }
 }
 .cubefoto {
@@ -98,7 +108,7 @@
   background-image: url("../img/photo-1493409137604-0901c55e4456.png");
   background-size: cover;
   opacity: 0.4;
-  transition: 0.3s;
+  transition: 0.5s;
   &:hover {
     opacity: 0.8;
   }
