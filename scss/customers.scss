@@ -24,6 +24,7 @@
 .foto {
   display: flex;
   border-radius: 100px;
+
   align-items: center;
   object-fit: cover;
 
@@ -127,5 +128,10 @@
   .swiper-pagination-bullet-active {
     background: $orangecolor;
     box-shadow: 0 0 5px $orangecolor;
+  }
+}
+@media (max-width: 1000px) {
+  .foto {
+    justify-content: center;
   }
 }
