@@ -115,7 +115,8 @@
   background: none;
 }
 #swiperbuttons {
-  color: $orangecolor;
+  color: white;
+  opacity: 0;
   &:hover {
     text-shadow: 0 0 5px $orangecolor;
   }
