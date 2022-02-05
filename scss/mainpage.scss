@@ -70,12 +70,12 @@ button.download {
     opacity: 1;
   }
 }
-
+//pirma forma
 .firstform {
   background: cadetblue;
   width: 360px;
 
-  button {
+  #insert {
     width: 360px;
     height: 57px;
     border-radius: 0;
@@ -246,29 +246,6 @@ button.download {
   }
 }
 
-@media (max-width: 1000px) {
-  #top-menu {
-    a {
-      display: none;
-    }
-  }
-  #topcheshire {
-    margin-right: 30%;
-  }
-  #burger {
-    display: block;
-    position: fixed;
-    left: 80%;
-  }
-  #side-menu {
-    background: black;
-  }
-
-  .stuffcontainer {
-    flex-wrap: wrap;
-  }
-}
-
 // radiobutton
 input[type="radio"]:after {
   width: 15px;
@@ -296,4 +273,26 @@ input[type="radio"]:checked:after {
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
+}
+@media (max-width: 1000px) {
+  #top-menu {
+    a {
+      display: none;
+    }
+  }
+  #topcheshire {
+    margin-right: 30%;
+  }
+  #burger {
+    display: block;
+    position: fixed;
+    left: 80%;
+  }
+  #side-menu {
+    background: black;
+  }
+
+  .stuffcontainer {
+    flex-wrap: wrap;
+  }
 }

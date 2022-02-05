@@ -26,11 +26,12 @@ form {
   border-style: none;
   color: white;
   opacity: 1;
-  transition: 0.8s;
+  transition: 0.1s;
   cursor: pointer;
 
-  &:hover {
-    opacity: 0.8;
+  &:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 }
 

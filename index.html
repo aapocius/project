@@ -57,28 +57,29 @@ astonished is.</p>
       <div class="tryfree"><p> Try Your <span>FREE</span> Trial Today</p></div>
       <p>Your details</p>
       <div class="formGroup">
-        <input type="text" id="fname" placeholder="First name" autocomplete="off" oninvalid="InvalidMsg(this);"
-          name="name" oninput="InvalidMsg(this);" type="name" required="required">
+        <input type="text" id="fname" placeholder="First name" autocomplete="off"
+          name="name"  type="name" oninput="InvalidMsg(this);" required="required">
       </div>
       <div class="formGroup">
-        <input type="lname" placeholder="Last name" name="lname" required autocomplete="off" required>
+        <input type="lname" placeholder="Last name" name="lname" required autocomplete="off"  required="required">
       </div>
       <div class="formGroup">
-        <input type="tel" id="password" placeholder="Phone number"  required autocomplete="off" required>
+        <input type="tel"  placeholder="Phone number"  required autocomplete="off" required="required">
       <p>Type of subscription</p>
       </div>
      
       <div class="checkBox">
         
         
-        <input id="kava" type="radio" name="gerimas" value="kava" required>
+        <input  type="radio" name="gerimas" value="kava" required="required">
         <label for="kava">MONTHLY</label>
         
-        <input id="arbata" type="radio" name="gerimas" value="arbata" required>
+        <input id="arbata" type="radio" name="gerimas" value="arbata" required="required">
         <label for="arbata">YEARLY</label>
       </div>
       <div class="sendbutton">
-        <button type="button" class="btn2">GET STARTED</button>
+        <!-- <button type="button" class="btn2">GET STARTED</button> -->
+        <input class="btn2" id="insert"  type="submit" value="GET STARTED" />
       </div>
     </form>
   </div>
@@ -443,15 +444,17 @@ astonished is.</p>
           <label id="labeltext" for="kava">COMPANY</label>
           <input id="kava" type="radio" name="gerimas" value="kava" required>
           <label id="labeltext" for="arbata">PERSONAL</label>
-          <input id="arbata" type="radio" name="gerimas" value="arbata" required>
+          <input  type="radio" name="gerimas" value="arbata" required>
           </div>
           <div class="sendbutton">
-            <button type="button" class="btn2">SEND</button>
+            <!-- <button type="button" class="btn2">SEND</button> -->
+            <input class="btn2"  id="insert"  type="submit" value="SEND" />
           </div>
         </form>
         </div>
                 </section>
 
+</section>
 
 
 
@@ -468,5 +471,6 @@ astonished is.</p>
               </div>
        
       </footer>
+
      </body>
 </html>

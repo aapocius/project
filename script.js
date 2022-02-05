@@ -28,7 +28,7 @@ const swiper = new Swiper('.swiper', {
 function InvalidMsg(textbox) {
     
     if (textbox.value == '') {
-        textbox.setCustomValidity('Required email address');
+        textbox.setCustomValidity('Please enter your name');
     }
     else if(textbox.validity.typeMismatch){
         textbox.setCustomValidity('please enter a valid email address');
@@ -58,5 +58,11 @@ window.addEventListener("resize", function(){
 })
 
 
-// svaiperiukas2
-
+// emptyform
+// function IsEmpty() {
+//   if (document.forms['frm'].question.value === "") {
+//     alert("empty");
+//     return false;
+//   }
+//   return true;
+// }
