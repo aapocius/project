@@ -71,15 +71,15 @@ astonished is.</p>
       <div class="checkBox">
         
         
-        <input  type="radio" name="gerimas" value="kava" required="required">
-        <label for="kava">MONTHLY</label>
+        <input  type="radio" name="selecttion" value="monthly" required="required">
+        <label for="monthly">MONTHLY</label>
         
-        <input id="arbata" type="radio" name="gerimas" value="arbata" required="required">
-        <label for="arbata">YEARLY</label>
+        <input id="arbata" type="radio" name="selecttion" value="yearly" required="required">
+        <label for="yearly">YEARLY</label>
       </div>
       <div class="sendbutton">
         <!-- <button type="button" class="btn2">GET STARTED</button> -->
-        <input class="btn2" id="insert"  type="submit" value="GET STARTED" />
+        <input class="btn2" id="insert" onclick="return IsEmpty();" type="submit" value="GET STARTED" />
       </div>
     </form>
   </div>
@@ -167,8 +167,8 @@ astonished is.</p>
   <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
   <div class="svgcontainer">
     <div class="minicontainer">
- <img src="app/img/award.svg" alt="award">
- <h2>Thoughtful Design</h2>
+    <img src="app/img/award.svg" alt="award">
+  <h2>Thoughtful Design</h2>
  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod ibendum laoreet.</p>
 </div>
 <div class="minicontainer">
@@ -431,20 +431,20 @@ astonished is.</p>
       
         <form class="signUp" action="" method="get">
           <div class="formGroup">
-            <input type="text" id="fname" placeholder="First name" autocomplete="off" oninvalid="InvalidMsg(this);" name="name" oninput="InvalidMsg(this);"  type="name" required="required">
+            <input type="text" id="fname" placeholder="First name" autocomplete="off" oninvalid="InvalidMsg(this);" name="name"  type="name" required="required">
           </div>
           <div class="formGroup">
             <input type="lname" placeholder="Last name" name="lname" required autocomplete="off"required>
           </div>
           <div class="formGroup">
-            <input type="tel" id="password" placeholder="Phone number" required autocomplete="off"required>
+            <input   placeholder="Phone number" required autocomplete="off"required>
           </div>
           
           <div class="checkBox">
-          <label id="labeltext" for="kava">COMPANY</label>
-          <input id="kava" type="radio" name="gerimas" value="kava" required>
-          <label id="labeltext" for="arbata">PERSONAL</label>
-          <input  type="radio" name="gerimas" value="arbata" required>
+          <label id="labeltext" for="company">COMPANY</label>
+          <input id="kava" type="radio" name="" value="company" required>
+          <label id="labeltext" for="personal">PERSONAL</label>
+          <input  type="radio" name="gerimas" value="personal" required>
           </div>
           <div class="sendbutton">
             <!-- <button type="button" class="btn2">SEND</button> -->
