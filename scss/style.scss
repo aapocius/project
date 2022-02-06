@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat:wght@100;400;600&display=swap");
 @import "variables";
 html {
-  box-sizing: border-box;
   font-family: Montserrat, Regular;
 }
 input:focus {
@@ -11,6 +10,7 @@ input:focus {
 body {
   margin: 0px auto;
   max-width: 1400px;
+  box-sizing: border-box;
 }
 @import "mainpage";
 @import "socialmedia";
@@ -21,3 +21,117 @@ body {
 @import "customers";
 @import "form";
 @import "footer";
+
+@media (max-width: 500px) {
+  .awesome {
+    p,
+    h1,
+    h6,
+    h2 {
+      width: auto;
+    }
+    h6 {
+      margin-left: 70px;
+    }
+  }
+  .textmedia {
+    h6 {
+      width: 50%;
+    }
+  }
+  .cheshiretext {
+    width: 50%;
+    flex-direction: column;
+
+    p {
+      width: auto;
+    }
+  }
+  .cheshire {
+    gap: 180px;
+    h5 {
+      opacity: 0;
+    }
+  }
+  #topcheshire {
+    margin-right: 70%;
+  }
+  .stuffcontainer {
+    img {
+      margin-left: 60px;
+      padding-bottom: 20px;
+    }
+  }
+  .iconscheshire {
+    flex-direction: column;
+  }
+  div.image {
+    img {
+      width: 200px;
+      height: auto;
+      margin: 0;
+    }
+  }
+  #footer1 {
+    flex-direction: column;
+  }
+
+  .facontainer {
+    display: flex;
+  }
+
+  #footer2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 200px;
+  }
+  .orangestrip {
+    width: auto;
+  }
+  .stuffcontainer {
+  }
+  .exploresection {
+  }
+  .iconstext {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+
+    h1 {
+      font-size: 10px;
+      width: auto;
+    }
+    p {
+      text-align: justify;
+      width: auto;
+      height: 50%;
+      font-size: 10px;
+    }
+  }
+  .grid {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    .three {
+      width: 160px;
+    }
+  }
+  .onlytext {
+  }
+  .leftside {
+    p,
+    h1 {
+      width: auto;
+      text-align: center;
+      margin: auto;
+    }
+  }
+  .stuffcontainer {
+    img.divider {
+      width: auto;
+    }
+  }
+  button.download {
+    width: auto;
+  }
+}

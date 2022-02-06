@@ -134,10 +134,9 @@ button.download {
   width: 100px;
   transform: translateX(-200px);
   transition: 0.3s;
-  z-index: 0;
-
+  background: black;
   height: 400px;
-  opacity: 0.5;
+  opacity: 0;
 }
 
 #side-menu a {
@@ -290,6 +289,7 @@ input[type="radio"]:checked:after {
   }
   #side-menu {
     background: black;
+    opacity: 0.5;
   }
 
   .stuffcontainer {
