@@ -30,9 +30,9 @@ function InvalidMsg(textbox) {
     if (textbox.value == '') {
         textbox.setCustomValidity('Please enter your name');
     }
-    else if(textbox.validity.typeMismatch){
-        textbox.setCustomValidity('please enter a valid email address');
-    }
+    // else if(textbox.validity.typeMismatch){
+    //     textbox.setCustomValidity('please enter a valid email address');
+    // }
     else {
         textbox.setCustomValidity('');
     }

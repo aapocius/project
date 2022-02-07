@@ -1,0 +1,130 @@
+@media (max-width: 500px) {
+  .awesome {
+    p,
+    h1,
+    h6,
+    h2 {
+      width: auto;
+    }
+    h6 {
+      margin-left: 70px;
+    }
+  }
+  .textmedia {
+    h6 {
+      width: 50%;
+    }
+  }
+  .cheshiretext {
+    width: 50%;
+    margin-top: -300px;
+    flex-direction: column;
+
+    p {
+      width: auto;
+    }
+  }
+  .cheshire {
+    gap: 50px;
+    h5 {
+      opacity: 0;
+    }
+  }
+  #topcheshire {
+    margin-right: 70%;
+  }
+  .stuffcontainer {
+    img {
+      margin-left: 60px;
+      padding-bottom: 20px;
+    }
+  }
+  .iconscheshire {
+    flex-direction: column;
+  }
+  div.image {
+    img {
+      width: 200px;
+      height: auto;
+      margin: 0;
+    }
+  }
+  #footer1 {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .facontainer {
+    display: flex;
+  }
+
+  #footer2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 200px;
+  }
+  .orangestrip {
+    width: auto;
+  }
+  .stuffcontainer {
+  }
+  .exploresection {
+  }
+  .iconstext {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+
+    h1 {
+      font-size: 10px;
+      width: auto;
+    }
+    p {
+      text-align: justify;
+      width: auto;
+      height: 50%;
+      font-size: 10px;
+    }
+  }
+  .grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 35px;
+
+    .three {
+      width: 150px;
+      height: 150px;
+    }
+    .one {
+      width: 150px;
+      height: 150px;
+    }
+    .two {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  .onlytext {
+    margin-bottom: 0;
+  }
+  .onlyicons {
+    display: flex;
+  }
+  .leftside {
+    p,
+    h1 {
+      width: auto;
+      text-align: center;
+      margin: auto;
+    }
+  }
+  .stuffcontainer {
+    img.divider {
+      width: auto;
+    }
+  }
+  button.download {
+    width: auto;
+  }
+}
