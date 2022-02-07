@@ -58,7 +58,7 @@ window.addEventListener("resize", function(){
 })
 
 
-// emptyform
+//emptyform
 // function IsEmpty() {
 //   if (document.forms['frm'].question.value === "") {
 //     alert("empty");
